@@ -1,0 +1,65 @@
+.synapsehub__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 2rem 6rem;
+}
+
+.synapsehub__navbar-links {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.synapsehub__navbar-links_logo {
+    margin-right: 2rem;
+}
+.synapsehub__navbar-links_logo img{
+    width: 62px;
+    height: 16.5px;
+}
+
+.synapsehub__navbar-links_container{
+    display: flex;
+    flex-direction: row;
+}
+
+.synapsehub__navbar-sign{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.synapsehub__navbar-links_container a,
+.synapsehub__navbar-sign p,
+.synapsehub__navbar-menu_container p {
+    font-family: var(--font-family);
+    font-size: 18px;
+    line-height: 24.59px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: capitalize;
+    text-decoration: none;
+
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.synapsehub__navbar-sign button,
+.synapsehub__navbar-menu_container button{
+    font-family: var(--font-family);
+    font-size: 18px;
+    line-height: 24.59px;
+    font-weight: 500;
+    color: #fff;
+    background-color:#FF4820;
+    text-transform: capitalize;
+
+    border: none;
+    uoytline: none;
+    padding: 0.5rem 1rem;
+    margin: 0 1rem;
+    cursor: pointer;
+}
