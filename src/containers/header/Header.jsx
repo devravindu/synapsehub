@@ -8,13 +8,12 @@ const Header = () => {
     <div className=".synapsehub__header section__padding" id="home">
       <div className="synapsehub__header-content">
         <h1 className="gradient__text">
-          Let's Build Something With SynapseHub OpenAI
+          Let's Build Something With SynapseHub
         </h1>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta
           veritatis veniam distinctio dicta? Velit, alias ipsa quia ipsum
-          reiciendis praesentium nostrum assumenda aspernatur sapiente
-          architecto alias nam adipisci doloremque consequuntur voluptates.
+          reiciendis praesentium nostrum.
         </p>
         <div className="synapsehub__header-content__input">
           <input type="text" placeholder="Your Email Address" />
