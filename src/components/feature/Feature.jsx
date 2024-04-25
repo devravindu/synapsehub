@@ -12,7 +12,7 @@ const Feature = ({title, text}) => {
         <p>{text}</p>
       </div>
     </div>
-  );
+  ); 
 };
 
 export default Feature;
