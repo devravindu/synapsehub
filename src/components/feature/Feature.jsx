@@ -4,13 +4,13 @@ import "./feature.css";
 const Feature = ({title, text}) => {
   return (
     <div className="synapsehub__features-container__feature">
-      <div className="synapsehub__what-synapse-hub__container-title">
-        <div />
+      <div className="synapsehub__features-container__feature-title">
+        <div></div>
         <h1>{title}</h1>
       </div>
-      <div className="synapsehub__what-synapse-hub__container-text">
+      <div className="synapsehub__features-container__feature-text">
         <p>{text}</p>
-      </div>
+      </div> 
     </div>
   ); 
 };
