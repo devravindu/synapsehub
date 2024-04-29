@@ -64,19 +64,24 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    row-gap: 1rem;
 
-    margin: 2rem;
+    margin-top: 2rem;
 }
 
 .synapsehub__what-synapse-hub__container .synapsehub__features-container__feature {
     flex: 1;
-    margin: 1rem;
+    margin-right: 1rem;
     min-width: 210px;
     display: unset;
     flex-direction: column;
 }
 .synapsehub__what-synapse-hub__container .synapsehub__features-container__feature-text {
     margin-top: 2rem;
+}
+
+.synapsehub__features-container .synapsehub__features-container__feature{
+    margin: 1rem;
 }
 
 @media screen and (max-width: 850px) {
