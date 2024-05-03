@@ -1,4 +1,5 @@
-.synapsehub__features {  
+.synapsehub__features {
+    width: 0%;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
