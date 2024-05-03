@@ -19,6 +19,10 @@ const featuresData = [
     title: "Really boy law county",
     text: "Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush.",
   },
+  {
+    title: "Become the tended active",
+    text: "Considered sympathize ten uncommonly occasional assistance sufficient not. Letter of on become he tended active enable to.",
+  },
 ];
 
 const Features = () => {
